@@ -1,0 +1,40 @@
+{
+  "name": "pasiri",
+  "version": "1.0.0",
+  "description": "Flexible request agent. Includes HTTP request mock.",
+  "keywords": [
+    "request",
+    "http",
+    "mockup",
+    "front-end",
+    "web"
+  ],
+  "authors": [
+    {
+      "name": "Fumio Furukawa",
+      "email": "fumio@jumilla.me",
+      "homepage": "http://jumilla.me"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jumilla/pasiri.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jumilla/pasiri/issues"
+  },
+  "dependencies": {
+    "core.js": "~1.1.4"
+  },
+  "devDependencies": {},
+  "main": [
+    "dist/pasiri.min.js"
+  ],
+  "ignore": [
+    "**/*",
+    "!dist/pasiri.js",
+    "!dist/pasiri.min.js",
+    "!LICENSE.txt"
+  ]
+}
