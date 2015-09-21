@@ -110,7 +110,8 @@
 	}
 
 	mocks.match = function (url, options) {
-		return this[options.method + ':' + url]
+		var key = options.method + ':' + url.split('?')[0];
+		return this[key]
 	}
 
 	mocks.invoke = function (mock, url, options) {

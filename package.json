@@ -1,6 +1,6 @@
 {
   "name": "pasiri",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Flexible request agent. Includes HTTP request mock.",
   "keywords": [
     "request",
